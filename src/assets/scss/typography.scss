@@ -1,0 +1,79 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import url("https://use.typekit.net/ixv6vhe.css");
+
+* {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+@each $name, $color in $theme_colors {
+  .color-#{$name} {
+    color: $color;
+  }
+}
+
+@each $name, $size in $font-size {
+  .fs-#{$name} {
+    font-size: $size;
+  }
+}
+
+// @each $name, $weight in $font-weight {
+//   .fw-#{$name} {
+//     font-weight: $weight;
+//   }
+// }
+
+$align-sides: left, center, right;
+@each $side in $align-sides {
+  .text-#{$side} {
+    text-align: #{$side};
+  }
+}
+
+//*************
+// LINE-HEIGHT
+//*************
+.lh-xsm {
+  line-height: 18px;
+}
+
+.lh-sm {
+  line-height: 21px;
+}
+
+.lh-nor {
+  line-height: 24px;
+}
+
+.lh-lg {
+  line-height: 27px;
+}
+
+.lh-xlg {
+  line-height: 36px;
+}
+
+.lh-xxlg {
+  line-height: 46px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-italic {
+  font-style: italic;
+}

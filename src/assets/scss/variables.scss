@@ -1,0 +1,137 @@
+//********************
+// SOLID COLOR VAR
+//********************
+$colors-whiteA100: #191f2cff;
+$colors-white: #191f2c;
+$colors-whiteA050: #191f2c80;
+$colors-whiteA000: #191f2c00;
+$colors-gray900: #cfcfcf;
+$colors-gray800: #c8c9cd;
+$colors-gray700: #828284;
+$colors-gray600: #ffffff;
+$colors-gray500: #7e8186;
+$colors-gray400: #999999;
+$colors-gray300: #444954;
+$colors-gray200: #2b2f3b;
+$colors-gray100: #272b38;
+$colors-grayA100: #999999ff;
+$colors-grayA050: #99999930;
+$colors-grayA000: #99999900;
+$colors-blue500: #5673eb;
+$colors-blue400: #3d4d8e;
+$colors-blue300: #354684;
+$colors-blue200: #30395c;
+$colors-blue100: #1e253b;
+$colors-blueA100: #5673ebff;
+$colors-blueA050: #5673eb75;
+$colors-blueA000: #5673eb00;
+$colors-red500: #eb5374;
+$colors-red200: #eb537425;
+$colors-red100: #eb537415;
+$colors-sky500: #4a9ae5;
+$colors-sky100: #4a9ae530;
+$colors-pink500: #bf2e70;
+$colors-pink100: #bf2e7030;
+$colors-gold500: #dca83d;
+$colors-gold100: #3a3a31;
+$colors-background: #0f1421;
+$colors-mobileBackground: #0f1421;
+$colors-shadowBackground1: #272b38;
+$colors-shadowBackground2: #202633;
+$colors-mapStroke: 37498C;
+$colors-mapLabelBackground: #262a37;
+$colors-sectionBorder: #303540;
+$colors-subSectionBorder: #393a3d;
+$colors-chartOptionBorder: #646464;
+$colors-donationButtonBorder: #555555;
+
+$theme-colors: (
+  "colors-whiteA100": $colors-whiteA100,
+  "colors-white": $colors-white,
+  "colors-whiteA050": $colors-whiteA050,
+  "colors-whiteA000": $colors-whiteA000,
+  "colors-gray900": $colors-gray900,
+  "colors-gray800": $colors-gray800,
+  "colors-gray700": $colors-gray700,
+  "colors-gray600": $colors-gray600,
+  "colors-gray500": $colors-gray500,
+  "colors-gray400": $colors-gray400,
+  "colors-gray300": $colors-gray300,
+  "colors-gray200": $colors-gray200,
+  "colors-gray100": $colors-gray100,
+  "colors-grayA100": $colors-grayA100,
+  "colors-grayA050": $colors-grayA050,
+  "colors-grayA000": $colors-grayA000,
+  "colors-blue500": $colors-blue500,
+  "colors-blue400": $colors-blue400,
+  "colors-blue300": $colors-blue300,
+  "colors-blue200": $colors-blue200,
+  "colors-blue100": $colors-blue100,
+  "colors-blueA100": $colors-blueA100,
+  "colors-blueA050": $colors-blueA050,
+  "colors-blueA000": $colors-blueA000,
+  "colors-red500": $colors-red500,
+  "colors-red200": $colors-red200,
+  "colors-red100": $colors-red100,
+  "colors-sky500": $colors-sky500,
+  "colors-sky100": $colors-sky100,
+  "colors-pink500": $colors-pink500,
+  "colors-pink100": $colors-pink100,
+  "colors-gold500": $colors-gold500,
+  "colors-gold100": $colors-gold100,
+  "colors-background": $colors-background,
+  "colors-mobileBackground": $colors-mobileBackground,
+  "colors-shadowBackground1": $colors-shadowBackground1,
+  "colors-shadowBackground2": $colors-shadowBackground2,
+  "colors-mapStroke": $colors-mapStroke,
+  "colors-mapLabelBackground": $colors-mapLabelBackground,
+  "colors-sectionBorder": $colors-sectionBorder,
+  "colors-subSectionBorder": $colors-subSectionBorder,
+  "colors-chartOptionBorder": $colors-chartOptionBorder,
+  "colors-donationButtonBorder": $colors-donationButtonBorder,
+);
+
+//********************
+// FONT SIZE VAR
+//********************
+$size-xsm: 12px;
+$size-sm: 13px;
+$size-nor: 16px;
+$size-lg: 18px;
+$size-xlg: 28px;
+
+$font-size: (
+  "xsm": $size-xsm,
+  "sm": $size-sm,
+  "nor": $size-nor,
+  "lg": $size-lg,
+  "xlg": $size-xlg,
+);
+
+//********************
+// FONT WEIGHT VAR
+//********************
+
+$weight-normal: 400;
+$weight-bold: 700;
+
+$font-weight: (
+  "normal": $weight-normal,
+  "bold": $weight-bold,
+);
+
+//************
+// BORDER VAR
+//*************
+
+$radius-size-smallest: 4px;
+$radius-size-small: 8px;
+$radius-size-normal: 12px;
+$radius-size-large: 14px;
+
+$border-radius: (
+  "xsm": $radius-size-smallest,
+  "sm": $radius-size-small,
+  "nor": $radius-size-normal,
+  "lg": $radius-size-large,
+);

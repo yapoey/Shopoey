@@ -1,0 +1,74 @@
+//************
+// FLEX-BOX
+//*************
+.d-flex {
+  display: flex;
+}
+.flex-basis-0 {
+  flex-basis: 0;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.d-flex-inline {
+  display: inline-flex;
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+//****************
+// BLOCK || INLINE
+//****************
+.d-inline {
+  display: inline;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-none {
+  display: none;
+}

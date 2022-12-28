@@ -1,0 +1,55 @@
+$margin-sides: (
+  top: t,
+  bottom: b,
+  left: l,
+  right: r,
+);
+// top, left, bottom, right;
+@for $i from 0 through 100 {
+  @if ($i % 2 == 0 or $i < 5) {
+    .p-all-#{$i} {
+      padding: #{$i}px;
+    }
+    .p-x-#{$i} {
+      padding-left: #{$i}px;
+      padding-right: #{$i}px;
+    }
+    .p-y-#{$i} {
+      padding-top: #{$i}px;
+      padding-bottom: #{$i}px;
+    }
+    .m-x-#{$i} {
+      margin-left: #{$i}px;
+      margin-right: #{$i}px;
+    }
+    .m-y-#{$i} {
+      margin-top: #{$i}px;
+      margin-bottom: #{$i}px;
+    }
+    @each $key, $side in $margin-sides {
+      .m-#{$side}-#{$i} {
+        margin-#{$key}: #{$i}px;
+      }
+      .p-#{$side}-#{$i} {
+        padding-#{$key}: #{$i}px;
+      }
+    }
+  }
+}
+
+@each $key, $side in $margin-sides {
+  .m-#{$side}-auto {
+    margin-#{$key}: auto;
+  }
+}
+
+//***********
+// WIDTH
+//***********
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
